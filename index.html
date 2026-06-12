@@ -1,12 +1,255 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
+
+<title>Lu Zhou's Homepage</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Lu Zhou is currently an associate professor at Xidian University.">
+<meta name="keywords" content="Lu Zhou, 周路, Xidian University">
+<meta name="author" content="Lu Zhou" />
+
+<link rel="stylesheet" href="w3.css">
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+
+<style>
+a{
+text-decoration: none;
+color: blue;
+}
+</style>
+
+<link rel="icon" type="image/png" href="images/nsec_logo.png">
+
 </head>
-<body>
-    <h1>你好，世界！</h1>
-    <p>欢迎来到我的第一个个人网站。这里是使用 GitHub Pages 搭建的。</p>
+
+
+<body class="w3-content" style="max-width:1000px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-light-gray	 w3-collapse w3-top w3-right" style="z-index:3;width:150px" id="mySidebar">
+<div class="w3-container w3-display-container w3-padding-8">
+<h3><b>Yan</b></h3>
+</div>
+<div class="w3-padding-16 w3-text-blue w3-large" style="font-weight:bold">
+<a href="#home" class="w3-bar-item w3-button">Home</a>
+<a href="#education" class="w3-bar-item w3-button">Education</a>
+<a href="#publications" class="w3-bar-item w3-button">Research</a>
+<a href="#award" class="w3-bar-item w3-button">Awards</a>
+</div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+<div class="w3-bar-item w3-padding-24">Yan</div>
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right"  style="font-stretch: extra-expanded;" onclick="w3_open()"><b>≡</b></a>
+</div>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:150px">
+
+<!-- Push down content on small screens -->
+<div class="w3-hide-large" style="margin-top:83px"></div>
+
+<!-- The Home Section -->
+<div class="w3-container w3-center w3-padding-32" id="home">
+<img style="width: 50%;max-width: 150px" alt="profile photo" src="images/Yan_Meng.jpg">
+<h1>Lu Zhou （周路）</h1>
+<h4> Associate Professor, Ph.D. Supervisor </h4>
+<p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
+I am currently an Associate Professor in the School of Computer Science and Technology at Xidian University. My research interests include IoT system security and privacy.
+</p>
+</tbody></table>
+</div>
+<hr>
+
+
+<!-- The Education Section -->
+<div class="w3-container w3-padding-8" id="education">
+<h2> Education </h2>
+<ul>
+<p><li>Ph.D., Computer Science and technology, 2015.09 - 2022.03<br/>
+Shanghai Jiao Tong University, Shanghai, China<br/>
+Advisor: <a href="https://nsec.sjtu.edu.cn/~hjzhu/">Prof. Haojin Zhu</a><br/>
+Area of Study: IoT Security and Privacy
+</li></p>
+
+<p><li>B.S., Computer Science and technology, 2011.09 - 2015.06<br/>
+Sichuan Universiry, Chengdu, China<br/>
+</li></p>
+</ul>
+</div>  
+
+<hr>
+
+<!-- The Publications Section -->
+<div class="w3-container w3-padding-8" id="publications">
+<h2>Research</h2>
+
+<p class="w3-left-align" style="line-height:200%">
+Up to 06/2026, I published top-tier papers including USENIX Security (2023), ACM CCS (2024), IEEE INFOCOM (2025), WWW (2025, 2026a, 2026b), ACM FSE (2026), ACM UIST (2025), IEEE TDSC (2025a, 2025b), IEEE TON (2025a, 2025b), and IEEE TIFS (2019). 
+</p>
+
+
+<h4>Selected Papers</b></h4>
+
+<ul>
+
+<p><li><strong><font color="blue">
+[Usenix Security'23]
+</font>
+POLICYCOMP: Counterpart Comparison of Privacy Policies Uncovers Overbroad Personal Data Collection Practices
+</strong><br>
+ <b>Lu Zhou</b>, Chengyongxiao Wei, Tong Zhu, Guoxing Chen, Xiaokuan Zhang, Suguo Du, Hui Cao, and Haojin Zhu.
+</p>
+
+<p><li><strong><font color="blue">
+[ACM CCS'24]
+</font>
+VPVet: Vetting Privacy Policies of Virtual Reality Apps
+</strong><br>
+ Yuxia Zhan, Yan Meng, <b>Lu Zhou</b>, Yichang Xiong, Xiaokuan Zhang, Lichuan Ma, Guoxing Chen, Qingqi Pei, and Haojin Zhu.
+</p>
+
+<p><li><strong><font color="blue">
+[IEEE INFOCOM'25]
+</font>
+The Feasibility of Location Anonymity: An Empirical Study towards a Real-world Location Privacy Protection System in Takeout Services
+</strong><br>
+<b>Lu Zhou</b>, Ruoxu Yang, Lichuan Ma, Guoxing Chen, Haojin Zhu, Li Yang, Qingqi Pei, and Qiang Li.
+</p>
+
+<p><li><strong><font color="blue">
+[ACM FSE'26]
+</font>
+Flash: Query-Efficient Black-Box Static Malware Evasion through Transferable GAN-Guided Modification Sequences
+</strong><br>
+Anyuan Sang, Li Yang, <b>Lu Zhou</b>, Junbo Jia, Huipeng Yang.
+</p>
+
+<p><li><strong><font color="blue">
+[WWW'26]
+</font>
+ProvGuard: Logic-Aware Multi-View Contrastive Learning for Robust and Efficient Host Threat Detection
+</strong><br>
+Anyuan Sang, Li Yang, <b>Lu Zhou</b>, Cheng Zhou, Junbo Jia and Huipeng Yang.
+</p>
+
+
+<p><li><strong><font color="blue">
+[WWW'26]
+</font>
+WebGeoInfer: Structure-Free Multi-Stage Framework for Geolocation Inference from Exposed Device Web Interfaces
+</strong><br>
+Huipeng Yang, Li Yang, <b>Lu Zhou</b>, Lichuan Ma, Xinyue Wang, Junbo Jia and Anyuan Sang.
+</p>
+
+<p><li><strong><font color="blue">
+[ACM UIST'25]
+</font>
+Content-Independent Avatar Ownership Detection for Preventing Sockpuppet-Enabled Violations in the Social Metaverse
+</strong><br>
+Jiangyu Wang, Guohao Li, <b>Lu Zhou</b>, Li Yang, and Haixin Ye.
+</p>
+    
+<p><li><strong><font color="blue">
+[WWW'25]
+</font>
+STGAN: Detecting Host Threats via Fusion of Spatial-Temporal Features in Host Provenance Graphs
+</strong><br>
+Anyuan Sang, Xuezheng Fan, Li Yang, Yuchen Wang, <b>Lu Zhou</b>, Junbo Jia, and Huipeng Yang.
+</p>
+
+<p>
+<li><strong><font color="blue"> [IEEE TIFS 2019]</font> Location Privacy in Usage-Based Automotive Insurance: Attacks and Countermeasures
+</strong>
+<br>
+<b>Lu Zhou</b>, Suguo Du, Haojin Zhu, Cailian Chen, Kaoru Ota, and Mianxiong Dong.
+</p>
+
+<p>
+<li><strong><font color="blue"> [IEEE TDSC 2025]</font> Practical and Collusion-Resistant Privacy-Preserving Aggregation for Edge Intelligence
+</strong>
+<br>
+Guohao Li, Li Yang, <b>Lu Zhou</b>, Hongbin Huang, Hao Zhang, and Jianfeng Ma.
+</p>
+
+<p>
+<li><strong><font color="blue"> [IEEE TDSC 2025]</font> Resist Dependency Explosion in Attack Investigation with Splittable Tag Propagation and Aggregation
+</strong>
+<br>
+Anyuan Sang, Yuchen Wang, Junbo Jia, Li Yang, Pengbin Feng, <b>Lu Zhou</b>, and Jianfeng Ma.
+</p>
+
+<p>
+<li><strong><font color="blue"> [IEEE TON 2025]</font> Collaborative Ad Fraud Detection in Ad Networks
+</strong>
+<br>
+Tong Zhu, Zhen Huang, <b>Lu Zhou</b>, Guoxing Chen, Yan Meng, and Haojin Zhu.
+</p>
+
+<p>
+<li><strong><font color="blue"> [IEEE TON 2025]</font> Vetting Privacy Policies in Virtual Reality Platforms with Longitudinal Analysis
+</strong>
+<br>
+Yan Meng, Yujia Huo, Yuxia Zhan, <b>Lu Zhou</b>, Lichuan Ma, Guoxing Chen, Qingqi Pei, and Haojin Zhu.
+</p>
+    
+</ul>
+
+</p>
+</div>
+<hr>
+
+
+<div class="w3-light-grey w3-center w3-padding-8">
+
+This website uses this <a href="https://github.com/YunheWang/HomePage">template</a>.</br>
+
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Accordion 
+function myAccFunc() {
+var x = document.getElementById("demoAcc");
+if (x.className.indexOf("w3-show") == -1) {
+x.className += " w3-show";
+} else {
+x.className = x.className.replace(" w3-show", "");
+}
+}
+
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function w3_open() {
+document.getElementById("mySidebar").style.display = "block";
+document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+document.getElementById("mySidebar").style.display = "none";
+document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
 </body>
 </html>
